@@ -21,5 +21,5 @@ The script:
    cd cursor-reset-windows
 
 ```powershell
-   ## Run the script in PowerShell (Run as Admin for best results):
+   # (Run as Admin for best results):
 ./reset-cursor.ps1
