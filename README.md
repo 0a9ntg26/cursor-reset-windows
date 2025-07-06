@@ -10,7 +10,7 @@ This script is provided for educational purposes only. Misuse may violate Cursor
 ## 🖥️ How It Works
 
 The script:
-- Deletes the `%APPDATA%\Cursor` and `%LOCALAPPDATA%\Cursor` folders if they exist.
+- Deletes the `%APPDATA%\Cursor` ` folder if exist.
 - Outputs success or failure messages for each.
 
 ## 🚀 How to Use
