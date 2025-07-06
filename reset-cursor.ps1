@@ -6,8 +6,6 @@ $appName = "Cursor"
 
 # Get current user's AppData paths
 $roamingPath = Join-Path $env:APPDATA $appName
-$localPath = Join-Path $env:LOCALAPPDATA $appName
-
 # Function to delete a folder if it exists
 function Remove-AppDataFolder($path) {
     if (Test-Path $path) {
@@ -24,4 +22,4 @@ function Remove-AppDataFolder($path) {
 
 # Remove Roaming and Local app data
 Remove-AppDataFolder $roamingPath
-Remove-AppDataFolder $localPath
+# Remove-AppDataFolder $localPath
