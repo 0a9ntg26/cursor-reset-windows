@@ -20,6 +20,6 @@ The script:
    git clone https://github.com/0a9ntg26/cursor-reset-windows.git
    cd cursor-reset-windows
 
+2. Run the script in PowerShell (Run as Admin for best results):
 ```powershell
-   # (Run as Admin for best results):
 ./reset-cursor.ps1
