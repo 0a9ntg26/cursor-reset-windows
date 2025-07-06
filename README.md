@@ -19,3 +19,7 @@ The script:
    ```bash
    git clone https://github.com/0a9ntg26/cursor-reset-windows.git
    cd cursor-reset-windows
+
+```powershell
+   ## Run the script in PowerShell (Run as Admin for best results):
+./reset-cursor.ps1
